@@ -146,7 +146,7 @@ a {
 }
 .main-div-third::before {
   content: '';
-  background: url('electricity-meters.jpg') no-repeat fixed 
+  background: url('bulps.jpg') no-repeat fixed 
   center/cover;
   position: absolute;
   top: 0;
