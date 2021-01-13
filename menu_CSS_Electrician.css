@@ -143,7 +143,7 @@ a {
 }
 .main-div-third::before {
   content: '';
-  background: url('/Pictures/electricity-meters.jpg') no-repeat fixed 
+  background: url('electricity-meters.jpg') no-repeat fixed 
   center/cover;
   position: absolute;
   top: 0;
