@@ -1,0 +1,125 @@
+<html>
+<style>
+html {
+    background-color: #E6ECF2;
+}
+h1, h2 {
+    color: #4C4040;
+    font-family: cursive;
+}
+body p {
+    font-family: fantasy;
+    font-size: 20px;
+}
+#submit {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.h1-services h1{
+    text-align: center;
+}
+.free_estimateform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+       
+}
+
+.free_estimateform div {
+    text-align: center;
+}
+    
+    
+.free_a1 {
+    flex:1;
+}    
+.free-a2 {
+    flex:1;
+}
+.free-a3 {
+    flex:1;
+}
+</style>
+
+<div class="howitworks-tittle">
+    <h1 id="A5">Free Estimate form</h1>
+    </div>
+<br>
+        
+<div class="free_a2">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <fieldset><legend>Please please be as detail as possible</legend><br>
+                <div class="item0">
+                First name:<br>
+                  <input type="text" name="firstname" value="" placeholder="Name" required>
+                  <br>
+                  Last name:<br>
+                  <input type="text" name="lastname" value="" placeholder="Last Name" required>
+                </div>  
+                <div class="item1">
+                  Email:<br>
+                  <input type="email" name="email" value="" placeholder="Email" required id="email">
+                  <br>
+                  Phone Number:<br>
+                  <input type="phone" name="Phone" value="" placeholder="Phone" required>
+                </div>
+                <div class="item2">
+                <h4>Type of Device:</h4>    
+                <select name="Device" required>
+                <option value="desktop">DESKTOP</option>
+                <option value="laptop">LAPTOP</option>
+                <option value="phone">PHONE</option>
+                <option value="table">TABLET</option>
+                <option value="tv">TV</option>
+                <option value="other">OTHER</option>    
+                </select>
+            </div> 
+            <div class="item3">
+                <h4>OS:</h4> 
+                <select name="OS" required>
+                <option value="macos">MACOS</option>
+                <option value="ios">IOS</option>
+                <option value="android">ANDROID</option>
+                <option value="windows">WINDOWS</option>
+                <option value="linux">LINUX</option>
+                <option value="other">OTHER</option>
+                <option value="other">N/A</option>  
+                </select>
+            </div>
+                <br>
+            <div class="item4">
+                <h4>Version of OS:</h4>
+                  <input type="text" name="lastname" value="" placeholder="ex. windows 10" required>
+                  <br> 
+            </div>
+            <div class="item5">
+                <h4>Brand:</h4> 
+                <input type="text" name="firstname" value="" placeholder="ex. Dell" required>
+        
+                <h4>Model Number:</h4> 
+                <input type="text" name="firstname" value="" placeholder="model # of device" required>
+            </div>    
+            <br>
+            <div class="item6">
+            <h4>Please describe your problem</h4>
+            <textarea name="message" rows="20" cols="55">be as detail as possible.</textarea>
+            </div>
+            <br>
+            <div class="item7">    
+            <input type="submit" value="submit" id="submit" src="https://www.freecodecamp.com/email-submit"> 
+            </div>
+            </fieldset>
+        </form>
+        </div>
+
+
+</html>
